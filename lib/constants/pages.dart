@@ -1,6 +1,7 @@
 import 'package:get/get.dart';
 
-import '../splash.dart';
+import '../views/splash.dart';
+import '../views/splash.dart';
 
 class Pages{
   static final allRoutes = [
