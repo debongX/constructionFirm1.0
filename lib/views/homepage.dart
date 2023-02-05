@@ -5,6 +5,7 @@ import 'package:image_tag/constants/colors.dart';
 import 'package:image_tag/views/settings.dart';
 
 import '../constants/fonts.dart';
+import 'imageUpload.dart';
 
 class MyHomepage extends StatefulWidget {
   const MyHomepage({Key? key}) : super(key: key);
@@ -46,13 +47,24 @@ class _MyHomepageState extends State<MyHomepage> {
             ),
             ListTile(
               leading: Icon(
-                Icons.home,
+                Icons.image,
+                color: kWhiteColor,
               ),
-              title: const Text('Page 1',style: fontMontserrat(color: ),),
+              title:  Text('Upload',style: fontMontserrat(color:kWhiteColor ),),
               onTap: () {
-                Navigator.pop(context);
+               Get.to(()=>ImageUpload());
               },
             ),
+          /*  ListTile(
+              leading: Icon(
+                Icons.image,
+                color: kWhiteColor,
+              ),
+              title:  Text('List',style: fontMontserrat(color:kWhiteColor ),),
+              onTap: () {
+               Get.to(()=>ImageUpload());
+              },
+            ),*/
 
           ],
         ),

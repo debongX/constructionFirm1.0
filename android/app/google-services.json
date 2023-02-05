@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "532220970516",
+    "project_id": "constructionfirm-38ca4",
+    "storage_bucket": "constructionfirm-38ca4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532220970516:android:3ff2452cb9c9978e858901",
+        "android_client_info": {
+          "package_name": "com.example.image_tag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532220970516-iknnivf5ctlgrihicj4jsck3qd8o7s1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Ll4tDxU--QSVBI8vYeJibmaIRo_oAAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532220970516-iknnivf5ctlgrihicj4jsck3qd8o7s1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
