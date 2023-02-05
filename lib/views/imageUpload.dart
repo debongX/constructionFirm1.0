@@ -168,6 +168,10 @@ class _ImageUploadState extends State<ImageUpload> {
         ),
         body: ListView(
           children: [
+            SizedBox(height: 20,),
+
+            Center(child: Text("Click on the images to get a preview",style: fontMontserrat(fontWeight: FontWeight.normal,fontSize: 13),)),
+            SizedBox(height: 20,),
             Container(
               height: Get.height/2,
 

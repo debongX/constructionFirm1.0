@@ -43,7 +43,7 @@ class _MyHomepageState extends State<MyHomepage> {
               decoration: BoxDecoration(
                 color: kSecondaryColor,
               ),
-              child: Center(child: Text('Drawer Header')),
+             child: Text(""),
             ),
             ListTile(
               leading: Icon(
@@ -55,16 +55,7 @@ class _MyHomepageState extends State<MyHomepage> {
                Get.to(()=>ImageUpload());
               },
             ),
-          /*  ListTile(
-              leading: Icon(
-                Icons.image,
-                color: kWhiteColor,
-              ),
-              title:  Text('List',style: fontMontserrat(color:kWhiteColor ),),
-              onTap: () {
-               Get.to(()=>ImageUpload());
-              },
-            ),*/
+
 
           ],
         ),
@@ -151,8 +142,15 @@ class _MyHomepageState extends State<MyHomepage> {
               ],
             ),
           ),
+          Container(
+            width: Get.width,
+            height: 100,
+            color: kBlackColor,
+            child: Center(child: Text("Tornado | 2023",style: fontMontserrat(fontSize: 16,color: kSecondaryColor,fontWeight: FontWeight.w300),)),
+          )
         ],
       ),
+
     );
   }
 }
